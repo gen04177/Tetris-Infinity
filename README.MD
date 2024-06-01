@@ -15,7 +15,7 @@ For more information and access to required payloads, please visit: [PS5 Payload
 1. Send the hbldr.elf payload to port 9021.
 2. Send the shsrv.elf payload to port 9021.
 3. Send the ftpsrv.elf payload to port 9021.
-4. Copy the tetris.elf payload to `/data` directory on your PS5.
+4. Copy the tetris.elf payload and tetris.wav to `/data` directory on your PS5.
 5. Execute `telnet [PS5-IP] 2323`.
 6. Run the command `hbldr /data/tetris.elf` (or `hbldr /data/tetris.elf /data/audio.wav`) to start the game.
 
