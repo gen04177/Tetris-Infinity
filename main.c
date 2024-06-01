@@ -290,7 +290,6 @@ void rotate_tetromino() {
     }
 
     if (check_rotation_collision()) {
-        // Revertendo a rotação
         current = temp;
     }
 }
