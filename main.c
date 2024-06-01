@@ -278,7 +278,6 @@ bool check_rotation_collision() {
     return check_collision(0, 0);
 }
 
-
 void rotate_tetromino() {
     Tetromino temp = current;
     Point pivot = { current.blocks[1].x, current.blocks[1].y };
@@ -290,20 +289,11 @@ void rotate_tetromino() {
         current.blocks[i].y = pivot.y + relX;
     }
 
-    if (check_collision(0, 0)) {
-
-        int dx = 0;
-        while (check_collision(dx, 0)) {
-            if (dx > 0) {
-                dx = -dx - 1;
-            } else {
-                dx = -dx + 1;
-            }
-        }
-        current.x += dx;
+    if (check_rotation_collision()) {
+        // Revertendo a rotação
+        current = temp;
     }
 }
-
 
 void handle_input(SDL_Event* e) {
     if (e->type == SDL_CONTROLLERBUTTONDOWN) {
