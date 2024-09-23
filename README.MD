@@ -13,7 +13,7 @@ This is a Tetris game developed in C using SDL2, designed to be played on a jail
 3. Send the ftpsrv.elf payload to port 9021.
 4. Copy the tetris.elf payload to your PS5.
 5. Execute `telnet [PS5-IP] 2323`.
-6. Run the command `hbldr /data/tetris.elf`
+6. Run the command, e.g., `hbldr /data/tetris.elf`
 
 ## Credits
 - J. Tornblom - SDK
