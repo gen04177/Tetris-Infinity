@@ -1,4 +1,4 @@
-# Tetris PS5
+# Tetris Infinity (PS5)
 
 This is a Tetris game developed in C using SDL2, designed to be played on a jailbroken PS5 (1.xx-4.xx).
 
@@ -14,6 +14,9 @@ This is a Tetris game developed in C using SDL2, designed to be played on a jail
 4. Copy the tetris.elf payload to your PS5.
 5. Execute `telnet [PS5-IP] 2323`.
 6. Run the command, e.g., `hbldr /data/tetris.elf`
+
+## Controls:
+Play it with the arrows to move the pieces, Circle to rotate, Cross for hard drop, and L1 to pause music.
 
 ## Credits
 - J. Tornblom - SDK
