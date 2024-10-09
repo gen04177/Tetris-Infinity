@@ -17,8 +17,11 @@ This is a Tetris game developed in C using SDL2, designed to be played on a jail
 
 ## Controls:
 Arrows: move the pieces
+
 Circle: rotate
+
 Cross: hard drop
+
 L1: pause music.
 
 ## Credits
