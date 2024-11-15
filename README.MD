@@ -1,4 +1,4 @@
-# Tetris Infinity (PS5)
+# Tetris Infinity
 
 This is a Tetris game developed in C using SDL2.
 
