@@ -27,4 +27,4 @@ L1/L: pause music.
 ## Credits:
 
 - devkitPro - SDK (Switch).
-- J. Törnblom - SDK (PS5).
+- ps5-payload-sdk
